@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Pages</title>
+    <th:block th:replace="fragments :: link-styles" th:remove="tag" e/>
+</head>
+
+<body>
+<th:block th:replace="fragments :: navigator" th:remove="tag"></th:block>
+<div class="container">
+    <h1>Hello My App!</h1>
+    <h1 th:text="${tosee}"></h1>
+</div>
+<th:block th:replace="fragments :: footer" th:remove="tag"></th:block>
+<th:block th:replace="fragments :: scripts"></th:block>
+</body>
+</html>
