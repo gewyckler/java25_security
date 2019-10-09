@@ -80,6 +80,12 @@
             <artifactId>popper.js</artifactId>
             <version>1.15.0</version>
         </dependency>
+
+        <!--odpowiedzialne za sec:authorized-->
+        <dependency>
+            <groupId>org.thymeleaf.extras</groupId>
+            <artifactId>thymeleaf-extras-springsecurity5</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
